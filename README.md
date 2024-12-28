@@ -17,7 +17,7 @@ a & b \\
 c & d 
 \end{bmatrix}$$
 
-- #### $ A-\lambda*I=0 $ :
+- #### A - λ * I = 0 :
 $$\begin{bmatrix} 
 a-\lambda & b \\ 
 c & d-\lambda 
@@ -27,24 +27,27 @@ c & d-\lambda
 $$\lambda^2 - (a+d)\lambda+(ad-bc) = 0$$
 
 - #### eqution parameter
-$$
-A = 1\\ 
-B = -(a + d)\\ 
-C = (ad - bc)
-$$
+
+  \( A = 1 \)
+
+  \( B = -(a + d) \)
+
+  \( C = (ad - bc) \)
 
 - #### Eigenvalues:
 $$
 \lambda_{1,2} = \frac{-B \pm \sqrt{B^2 - 4AC}}{2A}
 $$
 
-- #### Eigenvectors
-$$
-x_{i1} = 1 \\
-Scaler = -(a-\lambda_{i})/b \\
-x_{i2} = x_{i1}*Scaler \\
-Eigenvalue_{i} = [x_{i1},x_{2}]
-$$
+- #### Eigenvectors:
+
+  \( x_{i1} = 1 \)
+
+  \( \text{Scaler} = -(a - \lambda_{i}) / b \)
+
+  \( x_{i2} = x_{i1} \times \text{Scaler} \)
+
+  \( \text{Eigenvalue}_{i} = [x_{i1}, x_{i2}] \)
 
 ## Installation
 
