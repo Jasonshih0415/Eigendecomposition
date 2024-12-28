@@ -17,7 +17,7 @@ a & b \\
 c & d 
 \end{bmatrix}$$
 
-- ####  A-\lambda*I=0  :
+- ####  A-λ*I=0  :
 $$\begin{bmatrix} 
 a-\lambda & b \\ 
 c & d-\lambda 
