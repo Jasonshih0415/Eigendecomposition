@@ -46,34 +46,6 @@ x_{i2} = x_{i1}*Scaler \\
 Eigenvalue_{i} = [x_{i1},x_{2}]
 $$
 
----
-### Example Calculation
-For matrix:
-$$
-A = \begin{bmatrix} 
-2 & 1 \\ 
-1 & 2 
-\end{bmatrix}
-$$
-
-- Determinant equation:
-$$
-\lambda^2 - 4\lambda + 3 = 0
-$$
-
-- Eigenvalues:
-$$
-\lambda_1 = 3, \lambda_2 = 1
-$$
-
-- Eigenvectors:
-  - For \( \lambda_1 = 3 \):
-    $$ \text{Eigenvector}_1 = [1, 1] $$
-  - For \( \lambda_2 = 1 \):
-    $$ \text{Eigenvector}_2 = [1, -1] $$
-
-
-
 ## Installation
 
 Clone the repository and ensure you have Python installed:
